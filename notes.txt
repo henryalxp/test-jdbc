@@ -1,0 +1,2 @@
+* Run mariadb docker-server:
+docker run -p 3306:3306 --detach --name mariadb --env MARIADB_USER=user --env MARIADB_PASSWORD=1234 --env MARIADB_ROOT_PASSWORD=1234  mariadb:latest
